@@ -1,0 +1,77 @@
+.mymainClass{
+    width: 100%;
+    height: 700px;
+    background-image: url("/images/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainHeading{
+    font-weight: bold;
+    font-size: 5rem;
+    position: relative;
+    letter-spacing: 1mm;
+    top: 200px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    /* color: ; */
+    color:white;
+    background: linear-gradient(to right, tomato,#f32121,
+                    #2d08ff, #ce00ce, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+#mainPara{
+    font-size: 3rem;
+    position: absolute;
+    font-weight: bold;
+    top: 350px;
+    left: 200px;
+    letter-spacing: 1mm;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color:white;
+    background: linear-gradient(to right, tomato,#f32121,
+                    #2d08ff, #ce00ce, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+#socialWork{
+    width: 250px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 40px;
+    border: 2px Solid;
+    border-radius: 40px;
+    position: absolute;
+    right: 300px;
+    font-family: 'Cedarville Cursive', cursive;
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+    animation: socialAnim 4s infinite linear;
+    
+}
+@keyframes socialAnim {
+    0%{
+        background-color:white;
+    }
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: teal;
+    }
+    75%{
+        background-color: pink;
+    }
+    100%{
+        background-color: white;
+    }
+    
+}
+
+#socialWork:hover{
+    background-color: black;
+    color: white;
+    animation: none;
+}
+

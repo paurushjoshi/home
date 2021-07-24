@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paurush Chandra Joshi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      background-color: rgba(0, 0, 0, 0.918);
+    }
+    .footerNew{
+      color: white;
+      font-size: 5mm;
+    }
+
+    .PublicLinks{
+      text-decoration: none;
+      color: tomato;
+
+    }
+    .PublicLinks:hover{
+      text-decoration: underline tomato;
+      color: rgb(255, 83, 71);
+    }
+    .Publicpara{
+      font-size: 5mm;
+      line-height: 7mm;
+      letter-spacing: 1mm;
+    }
+    
+
+    #btnSocial{
+      background-color: #4deeee;
+      border-radius: 30px;
+      font-weight: bold;
+      animation: SUG 2s infinite;
+    }
+    @keyframes SUG {
+      0%{
+        box-shadow: 0px 0px 0px #4deeee,0px 0px 20px #4deeee,0px 0px 80px #4deeee;
+      }
+      70%{
+        box-shadow: none;
+      }
+    }
+
+    #btnSocial:hover{
+      box-shadow: 0px 0px 0px #4deeee,0px 0px 20px #4deeee,0px 0px 80px #4deeee;
+    }
+    .PaurushBack::before{
+      content: "";
+      background-image: url("images/background_Paurush.jpg");
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.4;
+      /* filter: invert(20%); */
+      
+
+    }
+    .certiCar{
+      width: 80%;
+      height: 500px;
+    }
+
+    .ProfileIntro{
+      font-size: 7mm;
+      letter-spacing: 1mm;
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .PaurushBack{
+      display: flex;
+      width: 100%;
+      height: 600px;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    .mainHeading{
+      color: rgb(27, 213, 219);
+      font-size: 4rem;
+      -webkit-text-stroke: 1px #4deec6;
+      box-shadow: 0px 0px 0px #4deec6,0px 0px 20px #4deec6,0px 0px 80px #4deec6
+      
+    }
+
+    #nameBranch{
+      color: rgb(27, 213, 219);
+      font-size: 2rem;
+      -webkit-text-stroke: 1px #4deec6;
+      box-shadow: 0px 0px 0px #4deec6,0px 0px 20px #4deec6,0px 0px 80px #4deec6
+    }
+    
+
+    .h1_heading{
+      font-size: 4rem;
+      font-family: "Poppins",sans-serif;
+      -webkit-text-stroke: 2px #4deeee;
+      position: relative;
+    }
+
+    .h1_heading::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left:0;
+      /* color: #4deeee; */
+      width: 0%;
+      height: 100%;
+      /* transform:; */
+      
+      /* border-right: 3px solid #4deeee; */
+      animation: hoverCerti 2s infinite;
+    }
+    @keyframes hoverCerti {
+      0%{
+        width: 0%;
+      }
+      85%{
+        color: #4deeee;
+        width: 25%;
+      }
+    }
+
+
+    @media (max-width:900px) {
+      .Publicpara{
+      font-size: 5mm;
+      line-height: 7mm;
+      letter-spacing: 1mm;
+    }
+    .footerNew{
+      color: white;
+      font-size: 4mm;
+    }
+
+    .certiCar{
+      width: 80%;
+      height: 150px;
+    }
+
+    .h1_heading{
+      font-size: 2rem;
+      font-family: "Poppins",sans-serif;
+      -webkit-text-stroke: 2px #4deeee;
+      position: relative;
+    }
+
+    .h1_heading::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left:0;
+      /* color: #4deeee; */
+      width: 0%;
+      height: 100%;
+      /* transform:; */
+      
+      /* border-right: 3px solid #4deeee; */
+      animation: hoverCerti 2s infinite;
+    }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">@Paurush</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" id="contactJS" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown" >
+                <li class="bg-dark"><a class="dropdown-item text-white bg-dark" href="https://in.linkedin.com/in/paurush-chandra-joshi-61487a209"><pre><img src="images/Linkedin.png" style="width: 20px;height: 20px;" alt="facebookIcon"> Linkedin</a></pre></a></li>
+                <li class="bg-dark"><a class="dropdown-item text-white bg-dark" href="https://www.instagram.com/paurushj12"><pre><img src="images/instaLogo.jpg" style="width: 20px;height: 20px;" alt="InstagramIcon"> Instagram</pre></a></li>
+                <li class="bg-dark"><a class="dropdown-item text-white bg-dark" href="https://www.facebook.com/paurush.joshi"><pre><img src="images/faccebooklogo.png" style="width: 20px;height: 20px;" alt="facebookIcon"> Facebook</pre></a></li>
+                <li class="bg-dark"><a class="dropdown-item text-white bg-dark" href="mailto:johnjoshi569@gmail.com"><pre><img src="images/gmailLogo.png" style="width: 20px;height: 20px;" alt="facebookIcon"> Gmail</pre></a></li>
+                
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <button type="button" id="btnSocial" style="margin-right: 10px;"><a href="socialWork.html" style="text-decoration: none;color: black;">Social_Work_Unity</a></button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- Navigation bar -->
+
+    <div class="container-fluid PaurushBack">
+      <h1 class="mainHeading" id="nameHeaing">Paurush Chandra Joshi</h1>
+      <h3 class="mainHeaing" id="nameBranch">Civil Engineer</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="container" style="padding: 1cm;">
+            <img src="images/MainPhotos/ProfilePic.jpg" alt="" style="width: 200px;height: 200px;border-radius: 100%;">
+          </div>
+        </div>
+        <div class="col-lg-8 text-white justify-content-center ProfileIntro" style="padding-top: 4mm;">
+          Hello. I'm Paurush Chandra Joshi. I've completed my M.tech in Construction Technology and Management.I can give shape to your most beautiful dream,
+          I believe that good civil engineering is nothing but the art to select the best solution.
+
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 class="h1_heading">Published Papers</h1>
+    <br>
+    <br>
+    <div class="container-fluid">
+
+      <h1><a class="PublicLinks" href="https://www.academia.edu/43101781/Replacement_of_Cement_with_Fly_ash_and_Coarse_Aggregate_with_Coconut_Shell_in_Concrete_A_Literature_Review">Advances in Civil and Structural Engineering</a></h1>
+      <p class="text-white Publicpara">Topic:Replacement of Cement with Fly ash and Coarse Aggregate with Coconut Shell in Concrete; A Litrature Review</p>
+
+      <br>
+      <br>
+
+      <h1><a class="PublicLinks" href="https://www.scribd.com/document/479679389/A-Literature-Review-on-the-Study-of-Partial-Replacement-of-Cement-with-Rice-Husk-Ash-in-Concrete">International Journal of Advance Civil Engineering and Technology</a></h1>
+      <p class="text-white Publicpara"> Topic: A Litrature Review on the Partial Replacement of Cement with Rice husk ash in Concrete. </p>
+      
+
+      <br>
+      <br>
+
+      <h1><a class="PublicLinks" href="https://www.academia.edu/44532422/Effect_of_Partial_Replacement_of_Coarse_Aggregate_by_Coconut_Shell_on_the_Compressive_Strength_of_Concrete">Journal of Research in Civil and Architectural Engineering</a></h1>
+      <p class="text-white Publicpara">Topic: Effect of Partial Replacement of Coarse Aggregate by Coconut Shell on the compressive strength of Concrete</p>
+
+      <br>
+      <br>
+
+      <h1><a class="PublicLinks" href="files/Jorunal4.pdf">International Journal of Scientific Research in Engineering and Management (IJSREM)</a></h1>
+      <p class="text-white Publicpara">Topic:Effect Of Partial Replacement Of Cement with Fly ash and Coarse
+        Aggregate with Coconut Shell in Concrete (MAJOR PROJECT)</p>
+    </div>
+    <br>
+    <br>
+    <br>
+<!--  -->
+
+<br>
+<br>
+<br>
+<br>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <h1 class="h1_heading" data-text="Certificates">Certificates</h1>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    
+
+  </div>
+  <center>
+    <div class="carousel-inner">
+
+      
+      <div class="carousel-item active">
+        <img class="certiCar" src="files/Certificate1.jpg" class="d-block" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img class="certiCar" src="files/Certificate2.jpg" class="d-block " alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img class="certiCar" src="files/Certificate3.jpg" class="d-block " alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img class="certiCar" src="files/Certificate4.jpg" class="d-block " alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img class="certiCar" src="files/Certificate5.jpg" class="d-block " alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img class="certiCar" src="files/Certificate6.jpg" class="d-block " alt="...">
+      </div>
+      <!-- <div class="carousel-item active">
+        <img class="certiCar" src="files/Certificate0.jpg" class="d-block" alt="...">
+        
+      </div> -->
+      
+    </div>
+  </center>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container-fluid footerNew">
+  <center>Copyright © Paurush Chandra Joshi
+    <p>2021</p></center>
+</div>
+<br>
+<br>
+
+
+    <!-- Testing -->
+    
+
+  </div>   
+
+<!-- ############################################################ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
